@@ -1,0 +1,58 @@
+/* task1 css start */
+.box1{
+    width:400px;
+    height: 400px;
+    background-color: aqua;
+    border: 20px solid black;
+    padding-left:70px;
+    box-sizing: border-box;
+}
+/* task1 css end */
+
+
+/* -------------------------------------------------------
+ task2 css start */
+.box2 p:nth-child(6),.box2 p:nth-child(8),.box2 p:nth-child(9){
+    color: #add8e6;
+}
+/* task2 css end */
+
+/* -------------------------------------------------------
+ task3 css start 
+ */
+.box3{
+    display: inline-flex;
+}
+.box3 .block{
+    border: 1px solid black;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.box3 .block .circle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: auto;
+}
+/* task3 css end */
+
+
+
+/* -------------------------------------------------------
+ task4 css start */
+.box4 p:hover::after{
+    content: ' Memmedov Behmen';
+}
+/* task4 css end */
+
+
+
+/* -------------------------------------------------------
+ task5 css start */
+.box5 .content:hover::before{
+    content: attr(data-name);
+}
+/* task5 css end */
