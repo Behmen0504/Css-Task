@@ -20,15 +20,14 @@
 /* -------------------------------------------------------
  task3 css start 
  */
-.box3{
-    display: inline-flex;
-}
+
 .box3 .block{
     border: 1px solid black;
     display: flex;
     width: 100px;
     height: 100px;
     margin-right: 10px;
+    display: inline-flex;
 }
 .box3 .block .circle{
     width: 50px;
